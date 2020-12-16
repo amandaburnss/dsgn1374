@@ -1,0 +1,51 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	color: black;
+	font-family: 'Amatic SC', sans-serif;font-family: 'Amatic SC', cursive
+	font-weight: 700;
+	line-height: 1.4;
+	font-size: 98px;
+	margin: 0.25em; 
+	background-image: url(img/palm.jpg); 
+	background-size: 25%;
+	background-repeat: repeat-y;
+	background-color: #ffd5ee;
+	background-attachment: fixed; 
+
+}
+
+img{
+	max-width: 100%;
+
+}
+
+
+.grid {
+	display: flex; 
+	flex-wrap: wrap;
+
+} 
+
+.iteam {
+	width: 50%;
+	padding: 2em;
+
+
+}
+
+.rounded-corners{
+	border-radius: 2em;
+
+}
+
+
+
+
+
+
