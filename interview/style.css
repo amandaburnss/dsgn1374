@@ -1,0 +1,65 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dbffdb;
+	color: black;
+	font-family: manrope, sans-serif; font-family: 'Manrope', sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+}
+
+
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+
+} 
+
+.title{
+	font-weight:700;
+	font-size:25px; 
+	width: 100%;
+	margin-bottom: 10em; 
+	text-decoration: underline;
+	color: #5e5275;
+
+
+}
+
+.amanda{
+	font-weight:400;
+	font-size:15px; 
+	color: #9e85b5;
+	transform: rotate(90deg);
+	transform-origin: left;
+	position: absolute;
+	left: 25em;
+	top: 2em;
+}
+
+.question{
+	font-weight: 700;
+	width: 50%;
+	
+} 
+
+.answer{
+	font-weight: 400;
+	width:50%;
+} 
+
+
+
+
+
+
+
+
+
+
