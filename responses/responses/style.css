@@ -1,0 +1,119 @@
+/* Responses */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ead5be;
+	color: black;
+	font-family: playfair display, serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Typography */
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 1em 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+a {
+	color: blue;
+	text-decoration: underline;
+	transition: all 0.3s;
+}
+
+a:hover {
+	color: purple;
+	text-decoration: none;
+}
+
+.button {
+	border: 1px solid #613100;
+	border-radius: 2em;
+	padding: 0.25em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 0 1em 0; 
+	color: #8a4f05;
+}
+
+.button:hover {
+	background-color: #9a5b0d;
+	color: white;
+}
+
+
+
+
+/* Grid */
+
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: center;
+	min-height: 100vh;
+}
+
+.items {
+	padding: 0.5em;  
+	background-color: blue;
+	font-weight: 400;
+
+}
+
+@media (min-width: 40em) {
+	.grid {
+		grid-template-columns: 50% 50%;
+	}
+
+	.title{
+		font-weight: 700;
+
+	}
+
+	.lo{
+		font-family: playfair display; serif; 
+		font-weight: 400;
+		color: blue;
+
+	}
+
+
+
+
+
+
+
+
+}
